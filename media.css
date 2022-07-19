@@ -1,0 +1,50 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .top-title {
+        font-size: 2.5em;
+    }
+    .top-description {
+        
+        text-overflow: ellipsis;
+    }
+    .page-section {
+        display: block;
+    }
+    .pages{
+        flex-direction: row;
+        width: 100%;
+        background-color: #FFF;
+    }
+    .btn2{
+        border: 1px solid rgba(0, 0, 0, 0.096);
+        margin: 0;
+    }
+    .btn2:first-child{
+        margin-right: 10px;
+    }
+    .btn2:last-child{
+        margin-left: 10px;
+    }
+    .active {
+        border: 0px;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .blog:nth-last-child(-n+3) {
+        display: none;
+    }
+    .btn4{
+        display: block;
+        width: 20%;
+        text-align: center;
+        margin: 20px auto;
+        margin-bottom: 5px;
+    }
+    .footer-items {
+        width: 90%;
+        flex-wrap: wrap;
+
+    }
+}
