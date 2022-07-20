@@ -6,6 +6,9 @@
 body{
     max-width: 1600px;
 }
+header{
+    text-align: center;
+}
 
 .top-banner{
     width: 80%;
@@ -160,10 +163,24 @@ body{
     list-style: none;
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .footer-item {
     text-decoration: none;
-    margin-left: 60px;
+    margin: 0 40px;
+    color: gray;
+}
+.icons {
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.icon-link{
+    text-decoration: none;
+    margin: 0 40px;
+    font-size: 2em;
     color: gray;
 }
