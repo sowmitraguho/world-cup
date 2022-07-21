@@ -6,6 +6,17 @@
 body{
     max-width: 1600px;
 }
+
+@keyframes banner-animation {
+    from {
+        
+    }
+    to {
+        background-color: yellow;
+    }
+  }
+
+
 header{
     text-align: center;
 }
@@ -77,6 +88,10 @@ header{
     padding: 10px 0;
     height: fit-content;
 }
+.pages a{
+    text-decoration: none;
+    
+}
 
 .btn2{
     width: 80%;
@@ -85,6 +100,7 @@ header{
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
+    color: black;
 }
 .active{
     background-color: red;
@@ -183,4 +199,23 @@ header{
     margin: 0 40px;
     font-size: 2em;
     color: gray;
+}
+.match{
+    padding: 20px;
+    text-align: center;
+}
+.match-between {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.match h2{
+    font-size: 1.5em;
+}
+.match-footer {
+    width: 100%;
+    display: block;
+    margin-left: 0;  
 }
