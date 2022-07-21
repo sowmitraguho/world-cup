@@ -6,6 +6,7 @@
 
 body {
     max-width: 1600px;
+    margin: 20px auto;
 }
 
 @keyframes banner01 {
@@ -70,7 +71,7 @@ header {
 
 .top-banner {
     width: 80%;
-    min-height: 550px;
+    min-height: 600px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -114,7 +115,8 @@ header {
 
 .top-description {
     font-size: 1.2em;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .btn {
